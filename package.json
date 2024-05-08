@@ -1,0 +1,29 @@
+{
+  "name": "@pprevankar/ggp",
+  "version": "1.0.0",
+  "description": "Checking system details",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pprevankar/ggp-pkg.git"
+  },
+  "publishConfig": {
+    "@pprevankar:registry": "https://npm.pkg.github.com"
+  },
+  "keywords": [
+    "ggp-pkg"
+  ],
+  "author": "cret",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pprevankar/ggp-pkg/issues"
+  },
+  "homepage": "https://github.com/pprevankar/ggp-pkg#readme",
+  "dependencies": {
+    "@pprevankar/gp": "1.0.0",
+    "axios": "^1.6.8"
+  }
+}
